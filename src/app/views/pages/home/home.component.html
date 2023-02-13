@@ -8,25 +8,25 @@
         <section class="social-icons mb-4">
           <span>
             <a
-              href="https://www.linkedin.com/in/dineshkumar0510"
+              href="https://www.linkedin.com/in/M4dhav"
               target="_blank"
               ><fa-icon [icon]="linkedIn"></fa-icon>
             </a>
           </span>
           <span>
-            <a href="https://www.github.com/DineshNKumar" target="_blank"
+            <a href="https://www.github.com/M4dhav" target="_blank"
               ><fa-icon [icon]="github"></fa-icon>
             </a>
           </span>
           <span *ngIf="isMobile === true; else elseBlock">
-            <a href="whatsapp://send?text=Hi, Dinesh" target="_blank"
+            <a href="whatsapp://send?phone=917658008316&text=Hey, Madhav" target="_blank"
               ><fa-icon [icon]="whatsapp"></fa-icon
             ></a>
           </span>
           <ng-template #elseBlock>
             <span>
               <a
-                href="https://web.whatsapp.com/send?text=Hi, Dinesh"
+                href="https://api.whatsapp.com/send?phone=917658008316&text=Hey, Madhav"
                 target="_blank"
                 ><fa-icon [icon]="whatsapp"></fa-icon>
               </a>
