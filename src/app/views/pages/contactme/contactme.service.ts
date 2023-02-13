@@ -11,7 +11,7 @@ export class ContactmeService {
 
   sendMail(name: string, email: string, message: string, project: string) {
     return this.http.post(
-      'https://bio-server-ns4u.vercel.app/sendmail',
+      'https://madhavgupta.vercel.app/sendmail',
       {
         name, email, message, project
       },
